@@ -59,16 +59,28 @@ export const owners = [
 
 export const pieData = [
     {
-        name: 'Mango',
-        value: 11760
+        name: 'Mr. Zowadul Alam',
+        value: 20
     },
     {
-        name: 'Orange',
-        value: 10120
+        name: 'Mr. Sofiqul Islam',
+        value: 20
     },
     {
-        name: 'Banana',
-        value: 13000
+        name: 'Mr. Mahbubul Islam',
+        value: 20
+    },
+    {
+        name: 'Mr. Zia Hasan',
+        value: 20
+    },
+    {
+        name: 'Mrs. Husnun Nahar',
+        value: 10
+    },
+    {
+        name: 'Mr. Mahmudul Alam',
+        value: 10
     }
 ]
 

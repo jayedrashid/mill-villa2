@@ -3,7 +3,7 @@ import { pieData } from '../data/data.js';
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer } from 'recharts';
 
 const RADIAN = Math.PI / 180
-const COLORS = ['#00c49f', '#ffbb28', '#ff8042']
+const COLORS = ['#00c49f', '#ffbb28', '#ff8042', '#F87060', '#102542', '#B3A394']
 
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5
@@ -19,8 +19,8 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
 function ProfChart() {
     return (
-        <div className='w-[28rem] h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col'>
-            <strong className='text-gray-700 font-medium'>Profile</strong>
+        <div className=' h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col'>
+            <strong className='text-gray-700 font-medium'>Owner's Division</strong>
             <div className='w-full mt-3 flex-1 text-sm'>
                 <ResponsiveContainer width="100%" height="100%">
                     <PieChart width={400} height={300}>
@@ -30,7 +30,7 @@ function ProfChart() {
                             labelLine={false}
                             cx="50%"
                             cy="45%"
-                            outerRadius={105}
+                            outerRadius={100}
                             fill="#8884d8"
                             label={renderCustomizedLabel}
                         >

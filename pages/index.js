@@ -1,5 +1,6 @@
 import TransChart from '@/components/TransChart'
 import ProfChart from '@/components/ProfChart'
+import LineChart from '@/components/LineChart'
 import Header from '@/components/Header'
 import TotalExp from '@/components/TotalExp'
 import TopCards from '@/components/TopCards'
@@ -18,11 +19,12 @@ export default function Home() {
       <main className='bg-gray-100 min-h-screen'>
         <Header />
         <TopCards />
-        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+        <div className='p-4 grid lg:grid-cols-3 grid-cols-1 gap-4'>
           {/* <BarChart4 />
           <TotalExp /> */}
           <TransChart />
           <ProfChart />
+          <LineChart />
         </div>
       </main>
     </>
