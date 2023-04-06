@@ -63,8 +63,6 @@ const Sidebar = ({ children }) => {
                         <GrDocumentUser size={20}/>
                     </div>
                 </Link>
-                
-                <Image></Image>
                 </div>
             </div>
             <main className='ml-20 w-full'>{children}</main>
