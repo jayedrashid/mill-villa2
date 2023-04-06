@@ -246,7 +246,38 @@ export const holdingTax = [
 
 export const data = [
     {
-        id: 1,
+        month: 'Mar',
+        year: 2023,
+        security: 13000,
+        electric: 13314,
+        water: 7158,
+        gas: 8640,
+        lift: 2000,
+        generatorFuel: 3270,
+        kollanSomity: 1250,
+        maintenance: 700,
+        conveyance: 100,
+        document: 100,
+        bonusTips: 0,
+        gasUnitPrice: 1080
+    },
+    {
+        month: 'Feb',
+        year: 2023,
+        security: 13000,
+        electric: 11361,
+        water: 6983,
+        gas: 14520,
+        lift: 2000,
+        generatorFuel: 3270,
+        kollanSomity: 1250,
+        maintenance: 1815,
+        conveyance: 200,
+        document: 100,
+        bonusTips: 0,
+        gasUnitPrice: 1815
+    },
+    {
         month: 'Jan',
         year: 2023,
         security: 13000,
@@ -263,7 +294,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 2,
         month: 'Dec',
         year: 2022,
         security: 13000,
@@ -280,7 +310,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 3,
         month: 'Nov',
         year: 2022,
         security: 13000,
@@ -297,7 +326,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 4,
         month: 'Oct',
         year: 2022,
         security: 13000,
@@ -314,7 +342,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 5,
         month: 'Sep',
         year: 2022,
         security: 13000,
@@ -331,7 +358,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 6,
         month: 'Aug',
         year: 2022,
         security: 13000,
@@ -348,7 +374,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 7,
         month: 'Jul',
         year: 2022,
         security: 13000,
@@ -365,7 +390,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 8,
         month: 'Jun',
         year: 2022,
         security: 13000,
@@ -382,7 +406,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 9,
         month: 'May',
         year: 2022,
         security: 13000,
@@ -399,7 +422,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 10,
         month: 'Apr',
         year: 2022,
         security: 13000,
@@ -416,7 +438,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 11,
         month: 'Mar',
         year: 2022,
         security: 13000,
@@ -433,7 +454,6 @@ export const data = [
         gasUnitPrice: 975
     },
     {
-        id: 12,
         month: 'Feb',
         year: 2022,
         security: 13000,

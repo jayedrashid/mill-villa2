@@ -37,43 +37,48 @@ const ownersExp = ({ data }) => {
                 <h2>Millennium Villa</h2>
             </div>
 
+
             <div className='p-4'>
-                <div className='w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
-                    <div className="App">
+                <div className="px-0 py-4 flex justify-between">
+                    {/* Excel Button */}
+                    <DownloadTableExcel filename="ownersExp" sheet="users" currentTableRef={tableRef.current}>
+                        <button className="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md" onClick={onDownload}>
+                            {<Image src={ExcelIcon}
+                                alt="Picture of the author"
+                                width={30}
+                                height={30}
+                            />}
+                            Export Excel
+                        </button>
+
+                    </DownloadTableExcel>
+
+                    {/* Print Button */}
+                    <ReactToPrint trigger={() => <button className="inline-flex items-center px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-md">
+                        {<Image src={PrintIcon}
+                            alt="Picture of the author"
+                            width={30}
+                            height={30}
+                        />}
+                        Print
+                    </button>}
+                        content={() => componentRef.current}
+                    />
+                </div>
+
+
+                <div ref={componentRef} className='w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
+                    <div ref={tableRef} className="App">
                         <div className="container mx-auto">
+
+
+
+
                             <h1 className="text-center text-3xl text-indigo-400 py-6">Owner's Expenditure Sheet</h1>
 
-                            <div className="bg-white px-0 py-4 flex justify-between">
-                                {/* Excel Button */}
-                                <DownloadTableExcel filename="ownersExp" sheet="users" currentTableRef={tableRef.current}>
-                                    <button className="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md" onClick={onDownload}>
-                                        {<Image src={ExcelIcon}
-                                            alt="Picture of the author"
-                                            width={30}
-                                            height={30}
-                                        />}
-                                        Export Excel
-                                    </button>
+                            <div className='overflow-auto rounded-lg shadow'>
 
-                                </DownloadTableExcel>
-
-                                {/* Print Button */}
-                                <ReactToPrint trigger={() => <button className="inline-flex items-center px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-md">
-                                    {<Image src={PrintIcon}
-                                        alt="Picture of the author"
-                                        width={30}
-                                        height={30}
-                                    />}
-                                    Print
-                                </button>}
-                                    content={() => componentRef.current}
-                                />
-                            </div>
-
-
-                            <div ref={componentRef} className='overflow-auto rounded-lg shadow'>
-
-                                <table ref={tableRef} className="w-full">
+                                <table  className="w-full">
                                     <thead className="bg-gray-50 border-b-2 border-gray-200">
                                         <tr>
                                             <th className="p-3 text-sm font-semibold uppercase tracking-wide text-left">Date</th>

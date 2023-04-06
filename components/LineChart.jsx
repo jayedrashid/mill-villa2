@@ -4,8 +4,8 @@ import { ResponsiveContainer, LineChart, Line, Legend, Tooltip, XAxis, YAxis, Ca
 
 function LineCharts() {
     return (
-        <div className='h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col'>
-            <strong className='text-gray-700 font-medium'>Generator Fuel</strong>
+        <div className='h-[22rem] bg-white p-4 rounded-lg border border-gray-200 flex flex-col'>
+            <strong className='text-gray-700 font-medium'>Generator Fuel Statistics</strong>
             <div className='w-full mt-3 flex-1 text-sm'>
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart

@@ -143,7 +143,7 @@ const yearlyCharge = ({data}) => {
                                     <tbody className="divide-y divide-gray-100">
 
                                         {/* Row 1 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500 hover:underline" href='/monthlyCharge'>01</a>
                                             </td>
@@ -153,7 +153,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 2 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">02</a>
                                             </td>
@@ -163,7 +163,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 3 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">03</a>
                                             </td>
@@ -173,7 +173,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 4 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">04</a>
                                             </td>
@@ -183,7 +183,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 5 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">05</a>
                                             </td>
@@ -193,7 +193,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 6 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">06</a>
                                             </td>
@@ -203,7 +203,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 7 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">07</a>
                                             </td>
@@ -213,7 +213,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 8 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">08</a>
                                             </td>
@@ -223,7 +223,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 9 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">09</a>
                                             </td>
@@ -233,7 +233,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 10 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">10</a>
                                             </td>
@@ -243,7 +243,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 11 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">11</a>
                                             </td>
@@ -253,7 +253,7 @@ const yearlyCharge = ({data}) => {
                                         </tr>
 
                                         {/* Row 12 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-blue-500">12</a>
                                             </td>

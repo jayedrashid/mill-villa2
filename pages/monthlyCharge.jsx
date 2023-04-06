@@ -61,7 +61,7 @@ const monthlyCharge = ({ data }) => {
                                     <tbody className="divide-y divide-gray-100">
 
                                         {/* Row 1 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <a className="font-bold text-gray-400">01</a>
                                             </td>
@@ -72,7 +72,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 2 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">02</a>
                                             </td>
@@ -83,7 +83,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 3 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">03</a>
                                             </td>
@@ -94,7 +94,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 4 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">04</a>
                                             </td>
@@ -105,7 +105,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 5 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">05</a>
                                             </td>
@@ -116,7 +116,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 6 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">06</a>
                                             </td>
@@ -127,7 +127,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 7 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">07</a>
                                             </td>
@@ -138,7 +138,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 8 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">08</a>
                                             </td>
@@ -149,7 +149,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 9 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">09</a>
                                             </td>
@@ -160,7 +160,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 10 */}
-                                        <tr className="bg-gray-50">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">10</a>
                                             </td>
@@ -171,7 +171,7 @@ const monthlyCharge = ({ data }) => {
                                         </tr>
 
                                         {/* Row 11 */}
-                                        <tr className="bg-white">
+                                        <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">11</a>
                                             </td>

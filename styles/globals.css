@@ -30,4 +30,8 @@
       --color-button-accent-hover: 55, 79, 5;
       --color-button-muted: 212, 255, 122;
     }
+    
+    tr:nth-of-type(even) {
+      background-color: rgb(249 250 251);
+    }
   }

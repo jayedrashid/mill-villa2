@@ -4,7 +4,7 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 
 function TransChart() {
     return (
-        <div className='h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col'>
+        <div className='h-[22rem] bg-white p-4 rounded-lg border border-gray-200 flex flex-col'>
             <strong className='text-gray-700 font-medium'>Utility Statistics</strong>
             <div className='w-full mt-3 flex-1 text-sm'>
                 <ResponsiveContainer width="100%" height="100%">
