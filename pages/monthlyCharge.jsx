@@ -38,7 +38,7 @@ const monthlyCharge = ({ data }) => {
             <TopCards />
 
             <div className='p-4'>
-                <div className='w-full m-auto p-2 border rounded-lg bg-white overflow-y-auto'>
+                <div className='w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
 
 
                     <div className="App">
@@ -164,7 +164,7 @@ const monthlyCharge = ({ data }) => {
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
                                             <a className="font-bold text-gray-400">10</a>
                                             </td>
-                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">documentation</td>
+                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Documentation</td>
                                             <td className="w-18 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {data[0].document}</td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {data[0].document / 5}</td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {data[0].document / 10}</td>

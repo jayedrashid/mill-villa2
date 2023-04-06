@@ -1,3 +1,35 @@
+export const announce = [
+    {
+        line1: "Titas Gas Bill Increased!",
+        line2: "Jun 5, 2022 Update",
+        details: "The government has increased the monthly bill of natural gas in the residential sector to Tk 1,080 for double burner while Tk 990 for single burner. The new price is being effective from June 1, 2022."
+    },
+    {
+        line1: "Electricity Bill Per Unit Price 2023",
+        line2: "Mar 23, 2023 Update",
+        details: "Now come to know the main point. An average increase of 5% to TK 4.14 per unit (per kilowatt hour) for general-level customers from TK 3.94. At the wholesale level, per unit has been increased by 8.06% from Tk 6.20 to Tk 6.70. The government had hiked retail electricity prices by 5% from January 13, 2023. At that time, the average electricity price in bangladesh for all customers increased from TK 7.13 to TK 7.49."
+    }
+]
+
+
+export const askQues = [
+    {
+        question: "How Titas Gas Bill Distributed?",
+        answer: "There are total 8 nos double oven in Millennium Villa. There are total 4 single units in this building where 5th floor has two separated units. So gas bill is divided by 5 and 10 respectively for single full units and small units. Also a fragment portion of oven added which belongs to caretaker. So the full flat calculation is = (Titas Gas Bill/8) /5 + Single Oven Price. And the small flat calculation is = (Titas Gas Bill/8) /10 + Single Oven Price."
+    },
+    {
+        question: "What is the current unit price per oven?",
+        answer: "Tk. 1080 for double Oven from each flat."
+    },
+    {
+        question: "How much generator fuel required per month?",
+        answer: "It depends on load shedding. Tk. 3270/gallon diesel (30 Liter) purchased as per requirement."
+    },
+    {
+        question: "What is bonus/Tips?",
+        answer: "Half the salary is disbursed as Eid Bonus to Security/Caretaker and Uttara Kollan Somity takes Tk. 1200 as Eid Tips twice a year."
+    }
+]
 
 export const owners = [
     {

@@ -145,9 +145,11 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 1 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500 hover:underline" href='/monthlyCharge'>01</a>
+                                                <a className="font-bold text-gray-400">01</a>
                                             </td>
-                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[0].month}</span></td>
+                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">
+                                                Month of <a href='/monthlyCharge'><span className='text-gray-400 uppercase italic hover:text-blue-500 hover:font-bold'>{data[0].month}</span></a>
+                                            </td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month1ServiceFull.toFixed(1)}</td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month1ServiceHalf.toFixed(1)}</td>
                                         </tr>
@@ -155,7 +157,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 2 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">02</a>
+                                                <a className="font-bold text-gray-400">02</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[1].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month2ServiceFull.toFixed(1)}</td>
@@ -165,7 +167,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 3 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">03</a>
+                                                <a className="font-bold text-gray-400">03</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[2].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month3ServiceFull.toFixed(1)}</td>
@@ -175,7 +177,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 4 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">04</a>
+                                                <a className="font-bold text-gray-400">04</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[3].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month4ServiceFull.toFixed(1)}</td>
@@ -185,7 +187,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 5 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">05</a>
+                                                <a className="font-bold text-gray-400">05</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[4].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month5ServiceFull.toFixed(1)}</td>
@@ -195,7 +197,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 6 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">06</a>
+                                                <a className="font-bold text-gray-400">06</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[5].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month6ServiceFull.toFixed(1)}</td>
@@ -205,7 +207,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 7 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">07</a>
+                                                <a className="font-bold text-gray-400">07</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[6].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month7ServiceFull.toFixed(1)}</td>
@@ -215,7 +217,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 8 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">08</a>
+                                                <a className="font-bold text-gray-400">08</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[7].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month8ServiceFull.toFixed(1)}</td>
@@ -225,7 +227,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 9 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">09</a>
+                                                <a className="font-bold text-gray-400">09</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[8].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month9ServiceFull.toFixed(1)}</td>
@@ -235,7 +237,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 10 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">10</a>
+                                                <a className="font-bold text-gray-400">10</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[9].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month10ServiceFull.toFixed(1)}</td>
@@ -245,7 +247,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 11 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">11</a>
+                                                <a className="font-bold text-gray-400">11</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[10].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month11ServiceFull.toFixed(1)}</td>
@@ -255,7 +257,7 @@ const yearlyCharge = ({data}) => {
                                         {/* Row 12 */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap">
-                                                <a className="font-bold text-blue-500">12</a>
+                                                <a className="font-bold text-gray-400">12</a>
                                             </td>
                                             <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap">Month of <span className='text-gray-400 uppercase italic'>{data[11].month}</span></td>
                                             <td className="w-15 p-3 text-sm text-gray-700 whitespace-nowrap">Tk. {month12ServiceFull.toFixed(1)}</td>

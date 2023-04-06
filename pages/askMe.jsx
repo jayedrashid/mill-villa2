@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs';
-import { data } from '../data/data.js';
+import { askQues } from '../data/data.js';
 
 
 const askMe = () => {
@@ -23,7 +23,7 @@ const askMe = () => {
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                                 <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
-                                    <h1 className='text-lg font-semibold text-white'>What is Tailwind CSS?</h1>
+                                    <h1 className='text-lg font-semibold text-white'>{askQues[0].question}</h1>
                                 </div>
 
                                 {/* Arrow Icon */}
@@ -36,7 +36,7 @@ const askMe = () => {
                                 {/* Content */}
                                 <div className='bg-gray-100 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
                                     <div className='p-4'>
-                                        <p>We are announcing today that we are bringing the Milestone and Ever Green brands even closer together. Effective as of 5th December 2013, our official name will be 'GREEN MILES WEST'.</p>
+                                        <p>{askQues[0].answer}</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const askMe = () => {
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                                 <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
-                                    <h1 className='text-lg font-semibold text-white'>What is Bootstrap?</h1>
+                                    <h1 className='text-lg font-semibold text-white'>{askQues[1].question}</h1>
                                 </div>
 
                                 {/* Arrow Icon */}
@@ -58,7 +58,7 @@ const askMe = () => {
                                 {/* Content */}
                                 <div className='bg-gray-100 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
                                     <div className='p-4'>
-                                        <p>We hope this does not create any confusion among our loyal consumers. While this represents a change from our initial name introduction, it does not change the quality of products we offer to our consumers.</p>
+                                        <p>{askQues[1].answer}</p>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const askMe = () => {
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                                 <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
-                                    <h1 className='text-lg font-semibold text-white'>What is Material UI?</h1>
+                                    <h1 className='text-lg font-semibold text-white'>{askQues[2].question}</h1>
                                 </div>
 
                                 {/* Arrow Icon */}
@@ -80,7 +80,7 @@ const askMe = () => {
                                 {/* Content */}
                                 <div className='bg-gray-100 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
                                     <div className='p-4'>
-                                        <p>We are announcing today that we are bringing the Milestone and Ever Green brands even closer together. Effective as of 5th December 2013, our official name will be 'GREEN MILES WEST'.</p>
+                                        <p>{askQues[2].answer}</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ const askMe = () => {
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
                                 <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
-                                    <h1 className='text-lg font-semibold text-white'>What is Chakra UI?</h1>
+                                    <h1 className='text-lg font-semibold text-white'>{askQues[3].question}</h1>
                                 </div>
 
                                 {/* Arrow Icon */}
@@ -102,7 +102,7 @@ const askMe = () => {
                                 {/* Content */}
                                 <div className='bg-gray-100 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
                                     <div className='p-4'>
-                                        <p>We hope this does not create any confusion among our loyal consumers. While this represents a change from our initial name introduction, it does not change the quality of products we offer to our consumers.</p>
+                                        <p>{askQues[3].answer}</p>
                                     </div>
                                 </div>
                             </div>

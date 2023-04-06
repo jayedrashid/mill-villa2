@@ -71,13 +71,9 @@ const ownersExp = ({ data }) => {
                     <div ref={tableRef} className="App">
                         <div className="container mx-auto">
 
-
-
-
                             <h1 className="text-center text-3xl text-indigo-400 py-6">Owner's Expenditure Sheet</h1>
 
                             <div className='overflow-auto rounded-lg shadow'>
-
                                 <table  className="w-full">
                                     <thead className="bg-gray-50 border-b-2 border-gray-200">
                                         <tr>

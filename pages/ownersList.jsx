@@ -23,7 +23,7 @@ const ownersList = ({data}) => {
             </div>
 
             <div className='p-4'>
-                <div className='w-full m-auto p-2 border rounded-lg bg-white overflow-y-auto'>
+                <div className='w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto'>
 
                     <div className="App">
                         <div className="container mx-auto">
