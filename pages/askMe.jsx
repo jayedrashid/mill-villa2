@@ -1,7 +1,8 @@
 import React from 'react';
 import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs';
 import { askQues } from '../data/data.js';
-
+import quesImg from '../data/ques.jpeg';
+import Image from 'next/image.js';
 
 const askMe = () => {
 
@@ -17,12 +18,15 @@ const askMe = () => {
                     <div className="App">
                         <div className="container mx-auto">
 
-                            <h1 className="text-center text-3xl text-indigo-400 py-6">Questionnaires</h1>
+                        <div className="flex justify-center items-center">
+                            <Image src={quesImg} alt="Picture of Questions" width={200} height={200} />
+                        </div>
+                            {/* <h1 className="text-center text-3xl text-indigo-400 py-6">Questionnaires</h1> */}
 
                             {/* Questionnaire 1 */}
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
-                                <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
+                                <div className='w-full h-12 pl-5 flex items-center bg-green-500'>
                                     <h1 className='text-lg font-semibold text-white'>{askQues[0].question}</h1>
                                 </div>
 
@@ -44,7 +48,7 @@ const askMe = () => {
                             {/* Questionnaire 2 */}
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
-                                <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
+                                <div className='w-full h-12 pl-5 flex items-center bg-red-500'>
                                     <h1 className='text-lg font-semibold text-white'>{askQues[1].question}</h1>
                                 </div>
 
@@ -66,7 +70,7 @@ const askMe = () => {
                             {/* Questionnaire 3 */}
                             <div className="mt-2 rounded-md relative w-full overflow-hidden">
                                 <input type='checkbox' className='peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer' />
-                                <div className='w-full h-12 pl-5 flex items-center bg-blue-500'>
+                                <div className='w-full h-12 pl-5 flex items-center bg-gray-500'>
                                     <h1 className='text-lg font-semibold text-white'>{askQues[2].question}</h1>
                                 </div>
 

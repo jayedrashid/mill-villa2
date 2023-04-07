@@ -14,19 +14,19 @@ export const announce = [
 
 export const askQues = [
     {
-        question: "How Titas Gas Bill Distributed?",
-        answer: "There are total 8 nos double oven in Millennium Villa. There are total 4 single units in this building where 5th floor has two separated units. So gas bill is divided by 5 and 10 respectively for single full units and small units. Also a fragment portion of oven added which belongs to caretaker. So the full flat calculation is = (Titas Gas Bill/8) /5 + Single Oven Price. And the small flat calculation is = (Titas Gas Bill/8) /10 + Single Oven Price."
+        question: "How Gas Bill Distributed?",
+        answer: "There are total 8 nos double burner in Millennium Villa. There are total 4 full flat in this building where 5th floor has two separated units (half flat). So gas bill is divided by 5 and 10 respectively for full flats and half flats. Also a fragment portion of burner added which belongs to caretaker. So the full flat calculation is = (Titas Gas Bill/8) /5 + Double Burner Price. And the half flat calculation is = (Titas Gas Bill/8) /10 + Double Burner Price."
     },
     {
-        question: "What is the current unit price per oven?",
-        answer: "Tk. 1080 for double Oven from each flat."
+        question: "How much burner unit price?",
+        answer: "Tk. 1080 for double burner from each flat."
     },
     {
-        question: "How much generator fuel required per month?",
-        answer: "It depends on load shedding. Tk. 3270/gallon diesel (30 Liter) purchased as per requirement."
+        question: "How much fuel required?",
+        answer: "Monthly Generator fuel consumption depends on load shedding. Tk. 3270/gallon diesel (30 Liter) purchased as per requirement."
     },
     {
-        question: "What is bonus/Tips?",
+        question: "What's Bonus/Tips?",
         answer: "Half the salary is disbursed as Eid Bonus to Security/Caretaker and Uttara Kollan Somity takes Tk. 1200 as Eid Tips twice a year."
     }
 ]

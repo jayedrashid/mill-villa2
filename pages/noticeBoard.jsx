@@ -20,7 +20,7 @@ const noticeBoard = () => {
                         <div className="container mx-auto">
 
                         <div className="flex justify-center items-center">
-                            <Image src={announcementImg} alt="Picture of the author" width={400} height={400} />
+                            <Image src={announcementImg} alt="Picture of Announcement" width={400} height={400} />
                         </div>
 
                             <div class="sm:m-6 space-y-6">
@@ -36,8 +36,8 @@ const noticeBoard = () => {
                                         <p class="mt-4 text-lg leading-6 text-skin-muted">{announce[0].details}</p>
                                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                                             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                                <a href='/monthlyCharge' class="text-skin-inverted bg-skin-button-accent hover:bg-skin-button-accent-hover flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Monthly Charge</a>
-                                                <a href='/monthlyCharge' class="text-skin-base bg-skin-button-muted flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Calculation</a>
+                                                <a href='/monthlyCharge' class="text-skin-inverted bg-skin-button-accent hover:bg-skin-button-accent-hover flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Monthly Bill</a>
+                                                <a href='/askMe' class="text-skin-base bg-skin-button-muted flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Gas Calculation</a>
                                             </div>
                                         </div>
                                     </div>
@@ -54,9 +54,9 @@ const noticeBoard = () => {
                                         </h2>
                                         <p class="mt-4 text-lg leading-6 text-skin-muted">{announce[1].details}</p>
                                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-                                            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                                <a href='/monthlyCharge' class="text-skin-inverted bg-skin-button-accent hover:bg-skin-button-accent-hover flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Monthly Charge</a>
-                                                <a href='/monthlyCharge' class="text-skin-base bg-skin-button-muted flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Calculation</a>
+                                            <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
+                                                <a href='/monthlyCharge' class="text-skin-inverted bg-skin-button-accent hover:bg-skin-button-accent-hover flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Monthly Bill</a>
+                                                {/* <a href='/monthlyCharge' class="text-skin-base bg-skin-button-muted flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Calculation</a> */}
                                             </div>
                                         </div>
                                     </div>

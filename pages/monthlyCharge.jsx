@@ -184,7 +184,7 @@ const monthlyCharge = ({ data }) => {
                                         {/* Row 12: Total */}
                                         <tr>
                                             <td className="w-5 p-3 text-sm text-gray-700 whitespace-nowrap"></td>
-                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap font-bold">Monthly Service Charge of <span className='text-indigo-400 uppercase'>{data[0].month}</span></td>
+                                            <td className="w-30 p-3 text-sm text-gray-700 whitespace-nowrap font-bold">Monthly Service Charge of <span className='text-gray-400 uppercase'>{data[0].month}</span></td>
                                             <td className="w-18 p-3 text-sm text-gray-700 whitespace-nowrap">
                                                 <span className="p-1.5 text-sm font-medium uppercase tracking-wider text-green-800 bg-green-200 rounded-md bg-opacity-50">Tk. {totalExp}</span>
                                             </td>
