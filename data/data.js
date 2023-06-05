@@ -53,7 +53,7 @@ export const owners = [
     {
         id: 3,
         person: {
-            name: 'Mr. Mahbubul Islam',
+            name: 'Mr. Mahbubul Alam',
             flat: '3rd Floor',
             phone: '01713121208',
             email: 'engr.mahbubul@yahoo.com'
@@ -99,7 +99,7 @@ export const pieData = [
         value: 20
     },
     {
-        name: 'Mr. Mahbubul Islam',
+        name: 'Mr. Mahbubul Alam',
         value: 20
     },
     {
@@ -277,6 +277,38 @@ export const holdingTax = [
 
 
 export const data = [
+    {
+        month: 'May',
+        year: 2023,
+        security: 13000,
+        electric: 15073,
+        water: 8205,
+        gas: 8640,
+        lift: 2000,
+        generatorFuel: 3270,
+        kollanSomity: 1250,
+        maintenance: 500,
+        conveyance: 200,
+        document: 100,
+        bonusTips: 0,
+        gasUnitPrice: 1080
+    },
+    {
+        month: 'Apr',
+        year: 2023,
+        security: 13000,
+        electric: 9853,
+        water: 7332,
+        gas: 8640,
+        lift: 2000,
+        generatorFuel: 3270,
+        kollanSomity: 1250,
+        maintenance: 945,
+        conveyance: 200,
+        document: 100,
+        bonusTips: 8200,
+        gasUnitPrice: 1080
+    },
     {
         month: 'Mar',
         year: 2023,
